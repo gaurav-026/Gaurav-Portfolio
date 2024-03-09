@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Oooh+Baby&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+@media screen and (min-width: 760px) {
+
+    .heading1 {
+        color: #000;
+        font-family: Inter;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4rem;
+    }
+
+    .heading2 {
+        color: #1E1E1E;
+        font-family: Inter;
+        font-size: 1.75rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin: 4rem 4rem 0rem 4rem;
+    }
+
+    .button {
+        margin: 0rem 0rem 3rem 4rem;
+        display: flex;
+        padding: 1rem 0.75rem;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 0.5rem;
+        background: linear-gradient(180deg, #BA76FF 0%, #865AB2 100%);
+        box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+        color: #FFF;
+        font-family: Inter;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        border: none;
+        line-height: normal;
+        cursor: pointer;
+    }
+
+    .card1 {
+        display: inline-flex;
+        align-items: center;
+        gap: 2rem;
+        margin: 2rem 4rem;
+        border: 1px solid #e2e2e2;
+        /* padding: 2rem 1rem; */
+        padding: 2.5rem 2rem;
+
+        border-radius: 1rem;
+        background: #FFF;
+        box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.15);
+    }
+
+    .card2 {
+        display: inline-flex;
+        align-items: center;
+        gap: 2rem;
+        margin: 2rem 4rem;
+        border: 1px solid #e2e2e2;
+        /* padding: 2rem 1rem;
+     */
+        padding: 2.5rem 2rem;
+
+        border-radius: 1rem;
+        background: #FFF;
+        box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.15);
+    }
+
+    .content {
+        width: 50%;
+        color: #444;
+        text-align: justify;
+        font-family: Inter;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+
+    }
+
+    .rectangle {
+        width: 50%;
+        height: 25%;
+        border-radius: 0.5rem;
+        box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.10);
+
+    }
+
+    /* section{
+        background-color: grey;
+    } */
+
+}
+
+
+/* MOBILE VIEW */
+@media screen and (min-width: 320px) and (max-width: 759px) {
+
+    .heading1 {
+        color: #1E1E1E;
+        text-align: center;
+        font-family: Inter;
+        font-size: 1.1875rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: 2rem;
+    }
+
+    .heading2 {
+        color: #1E1E1E;
+        text-align: center;
+        font-family: Inter;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: 1.5rem;
+    }
+
+    .button {
+        margin: 0rem auto 3rem auto;
+        display: flex;
+        padding: 1rem 0.75rem;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 0.5rem;
+        background: linear-gradient(180deg, #BA76FF 0%, #865AB2 100%);
+        box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+        color: #FFF;
+        font-family: Inter;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 600;
+        border: none;
+        line-height: normal;
+        cursor: pointer;
+    }
+
+    .card1 {
+        display: inline-flex;
+        height: 23.8125rem;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        flex-shrink: 0;
+        margin-top: 1.75rem;
+        border-radius: 0.75rem;
+        padding: 2.5rem 0rem;
+        background: #FFF;
+        box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.15);
+        margin: 1.75rem 1rem;
+    }
+
+    .card2 {
+        display: inline-flex;
+        height: 23.8125rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        flex-shrink: 0;
+        border-radius: 0.75rem;
+        padding: 2.5rem 0rem;
+        background: #FFF;
+        box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.15);
+        margin: 1.75rem 1rem;
+
+    }
+
+    .content {
+        color: #444;
+        text-align: justify;
+        font-family: Inter;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin: 1rem 1.5rem;
+    }
+
+    .rectangle {
+        width: 90%;
+        height: 60%;
+        border-radius: 0.35rem;
+        box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.10);
+    }
+
+
+}

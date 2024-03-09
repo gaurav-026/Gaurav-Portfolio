@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Oooh+Baby&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,500;1,700;1,900&family=Secular+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 760px) {
+    footer{
+        text-align: center;
+        background-color: rgb(243, 243, 243);
+        padding: 1rem 0rem;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 759px) {
+    footer{
+        text-align: center;
+        background-color: rgb(243, 243, 243);
+        padding: 0.25rem 0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
