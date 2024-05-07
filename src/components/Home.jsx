@@ -15,7 +15,7 @@ const Home = () => {
         <div className="text3">
             Hi,<br />
             I am Gaurav Chakrawarti,<br />
-            Web-Developer<br />
+            MERN Stack Developer<br />
             UI/UX Designer<br />
         </div>
         <div className="image1">
@@ -24,8 +24,8 @@ const Home = () => {
         </div>
         <div className="text4">
         A 3rd Year B.tech student specializing in Electronics Engineering with an overall CGPA of 8.75.
-Have a good knowledge of Data Structures and Algorithms, Front-end Websites, and UI/UX
-Designs. I am a part-time Freelancer in Web and App Designing.
+        Have a
+good knowledge of Data Structures and Algorithms, MERN Stack Web-Development, and UI/UX Designs.
         </div>
         
         
@@ -34,16 +34,27 @@ Designs. I am a part-time Freelancer in Web and App Designing.
       <div className="frame2">
         <h2 className='h2'>Current Position</h2>
         <div className="container1">
-          <p className='text5'>I am a 3rd Year B.Tech Student. I am a Front-end Developer, Website Designer and Competitive Programmer. I have a good knowledge about User Interfaces,User Experience,Website Development and Problem Solving. I'm currently working as a part-time UI/UX Intern in Cakelaya startup and open to accept new opportunities and proposals.</p>
+          <p className='text5'>I am a 3rd Year B.Tech Student from Kamla Nehru Institute Of Technology, Sultanpur.<br/> I am a MERN Stack Web Developer, UI/UX Designer and Competitive Programmer. I
+have worked as an individual as well as a part of collaborative team and produced outstanding results.<br/> I am currently working as a Part-time UI/UX Designer Intern in Be10x company. </p>
           
         </div>
 
-        <br/><h2 className='h2'>Educational Qualifications</h2>
+        <br/>
+        <h2 className='h2'>Work Experience</h2>
+        <p className='text5'>
+            <b>UI/UX Designer, Cakelaya Startup (Jan 2024- Feb 2024)</b> <br />
+            Recently worked as a 1 month UI/UX designer intern at Cakelaya startup. Designed two apps and one
+responsive website for the company.<br />
+            
+          </p>
+        <br/>
+        <h2 className='h2'>Educational Qualifications</h2>
         <p className='text5'>
             Kamla Nehru Institute of Technology, Sultanpur <br />
             Bachelor of Technology - BTech <br />
+            Semester: 6 || CGPA: 8.75 <br />
             Nov 2021 - Jul 2025 <br />
-            Activities and societies: Sports, Flute Playing, Travelling, Exploring New things and Ideas
+            {/* Activities and societies: Sports, Flute Playing, Travelling, Exploring New things and Ideas */}
           </p>
       </div>
 
@@ -71,10 +82,10 @@ Designs. I am a part-time Freelancer in Web and App Designing.
             </div>
 
             <div className="box">
-              <p className="text6">Web Design</p>
+              <p className="text6">Git</p>
             </div>
             <div className="box">
-              <p className="text6">App Design</p>
+              <p className="text6">Bootstrap</p>
             </div>
             <div className="box">
               <p className="text6">UI/UX Design</p>
@@ -106,22 +117,22 @@ Designs. I am a part-time Freelancer in Web and App Designing.
         <p className='worksamples'>Work Samples</p>
         <div className="container5">
           <div className="box1">
-            <p className='text7'>Frontend Websites: </p>
+            <p className='text7'>Websites: </p>
             <p className='text8'>
-            <br/>   - Crypto Application <br/>
-              - News Monkey Newsapp <br/>
-              - Text-Utils <br/>
-              - Personal Portfolio Website <br/>
+            <br/>   - Task Master: Todo Application <br/>
+              - Crypto Application <br/>
+              - Employee Form  <br/>
+              - Personal Portfolio <br/>
               - Video Player <br/>
             </p>
           </div>
           <div className="box2">
-            <p className='text7'>Websites and App Designs: <br/></p>
+            <p className='text7'>App Designs: <br/></p>
             <p className='text8'>
-            <br/>    - Cake Delivery App <br/>
+            <br/>    - EnergizeX: Health Product Websie <br/>
               - Cake Advertising Website <br/>
-              - Social Media App<br/>
-              - Personal Portfolio Design <br/>
+              - Cake Delivery App<br/>
+              - Social Media App <br/>
               - Admin Screens <br/>
             </p>
           </div>
@@ -134,17 +145,29 @@ Designs. I am a part-time Freelancer in Web and App Designing.
       <div className="frame2">
         <h2 className='h2'>Additional Information</h2>
         <p className='text5'>
-            <b>Tools Used:</b> VS code, GitHub, Vercel, Netlify, ChatGPT.
-          </p>
+            <b>Developer Tools:</b> VS Code, Git & GitHub, Postman, Vercel, Netlify, ChatGPT
+        </p>
+        <p className='text5'>
+            <b>Designer Tools:</b> Figma, Canva
+        </p>
+        <p className='text5'>
+            <b>Soft Skills:</b> Problem Solving, Teamwork, Time Management
+        </p>
         <p className='text5'>
             <b>Languages: </b> English,Hindi(Native).
           </p>
         <p className='text5'>
-            <b>Certifications:</b>  Internet of Things, Certification of Participation in Coca-Cola Season-3 and Flipkart
-Grid-5.0, Certification of Completion of basics of AWS and Google Analytics.
+            <b>Certifications:</b>  Web Development Fundamentals, UI/UX Designer Intern
           </p>
         <p className='text5'>
-            <b>Awards/Activities:</b> Codechef(max. 1378), 250+ Problems(Leetcode & Gfg), Freelancer(UI Design).
+            <b>Activities:</b>  Participated in <b>“Coca-Cola Season-3”</b> and <b>“Flipkart Grid-5.0”</b>, Designer head in college club: Mechanical
+Engineering Forum.
+          </p>
+        <p className='text5'>
+            <b>Awards:</b> Codechef(<b>max. 1378</b>), <b>250+</b> Problems(Leetcode & Gfg), Freelancer(UI Design).
+          </p>
+        <p className='text5'>
+            <b>Interests:</b> Travelling, Flute-playing, Workout
           </p>
       </div>
       <div className="frame5">

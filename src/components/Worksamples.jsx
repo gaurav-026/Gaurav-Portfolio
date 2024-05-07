@@ -4,16 +4,30 @@ import web2 from '../assets/web2.png'
 import web3 from '../assets/web3.png'
 import web4 from '../assets/web4.png'
 import web5 from '../assets/web5.png'
+import web7 from '../assets/web7.png'
 import des1 from '../assets/des1.png'
 import des2 from '../assets/des2.png'
 import des3 from '../assets/des3.png'
 import des4 from '../assets/des4.png'
+import des5 from '../assets/des5.png'
 const Worksamples = () => {
     return (
         <>
             <h1 className='heading1'>Front-End Websites</h1>
             <section>
-                <h2 className='heading2'>1. Crypto Application - Website</h2>
+                <h2 className='heading2'>1. Task Master: Todo Application - Website</h2>
+                <div className="card2">
+                <img src={web7} alt="Image" className='rectangle' />
+                    <p className='content'>It is a task management website. You can add, edit, delete the tasks and mark them done once the task is completed. Also you can analyze the completed tasks in the Analysis section. 
+
+This website is  designed in Figma and developed using HTML, CSS, JavaScript, React.js, Netlify, Git, ChatGPT</p>
+                    
+                </div>
+                <a href="https://gaurav-taskmaster.netlify.app/"><button className='button'>Visit Website</button></a>
+
+            </section>
+            <section>
+                <h2 className='heading2'>2. Crypto Application - Website</h2>
                 <div className="card1">
 
                     <p className='content'>This responsive and user-friendly
@@ -38,7 +52,7 @@ const Worksamples = () => {
 
             </section> */}
             <section>
-                <h2 className='heading2'>2. Personal Portfolio - Website</h2>
+                <h2 className='heading2'>3. Personal Portfolio - Website</h2>
                 <div className="card2">
                 <img src={web3} alt="Image" className='rectangle' />
                     <p className='content'>It is a proper user-friend responsive portfolio website for Web, Tablet, and Mobile. I have designed it using Figma and developed it in React.js. It includes all the information about my Qualifications, Current Position, Skills, Previous Works, and all the tech-related profiles.</p>
@@ -48,7 +62,7 @@ const Worksamples = () => {
 
             </section>
             <section>
-                <h2 className='heading2'>3. Video Player - Website</h2>
+                <h2 className='heading2'>4. Video Player - Website</h2>
                 <div className="card1">
                 
                     <p className='content'>It includes simple landing page which consists of sliders and some content part. I have implemented a side slider menu section where Home, Videos, Login/Sign up and Upload videos option are available. This website is developed in React.js, HTML and with the integration of Chakra UI. </p>
@@ -59,7 +73,7 @@ const Worksamples = () => {
 
             </section>
             <section>
-                <h2 className='heading2'>4. Calculator - Website</h2>
+                <h2 className='heading2'>5. Calculator - Website</h2>
                 <div className="card2">
                 <img src={web4} alt="Image" className='rectangle' />
                     <p className='content'>It includes simple landing page which consists of sliders and some content part. I have implemented a side slider menu section where Home, Videos, Login/Sign up and Upload videos option are available. This website is developed in React.js, HTML and with the integration of Chakra UI. </p>
@@ -67,7 +81,7 @@ const Worksamples = () => {
                 <a href="https://calculator-website-three.vercel.app/"><button className='button'>Visit Website</button></a>
             </section>
             <section>
-                <h2 className='heading2'>5. Snake Game - Website</h2>
+                <h2 className='heading2'>6. Snake Game - Website</h2>
                 <div className="card1">
                     <p className='content'>It is a simple Snake game and rules are same as previous. It is built using HTML,CSS and Javascript. It have developed this game while learning Web-development from CodeWithHarry. </p>
                 <img src={web5} alt="Image" className='rectangle' />
@@ -76,7 +90,17 @@ const Worksamples = () => {
             </section>
             <h1 className='heading1'>UI/UX Designs</h1>
             <section>
-                <h2 className='heading2'>1. Cakelaya Android App Design</h2>
+                <h2 className='heading2'>1. EnergizeX: Health and Nutrition Product Website </h2>
+                <div className="card2">
+                <img src={des5} alt="Image" className='rectangle' />
+                    <p className='content'>It is an E-commerce website which sells health and nutrition products. It is similar to other e-commerce sites like flipkart, amazon etc. This is one page landing page and designed in Figma. </p>
+                    
+                </div>
+                <a href="https://www.behance.net/gallery/197905255/EnergizeX-Health-Nutrition-Product-Website"><button className='button'>Visit Website</button></a>
+
+            </section>
+            <section>
+                <h2 className='heading2'>2. Cakelaya Android App Design</h2>
                 <div className="card1">
 
                     <p className='content'>It is a Cake Delivery App design. I have designed this UI for a startup company while working as a part-time UI/UX Intern.  I have used illusations, sliders, icons and a lot of research too for this project. It has around 30-35 screens and designed within 20 days.</p>
@@ -86,7 +110,7 @@ const Worksamples = () => {
 
             </section>
             <section>
-                <h2 className='heading2'>2. Cakelaya Website </h2>
+                <h2 className='heading2'>3. Cakelaya Website </h2>
                 <div className="card2">
                 <img src={des2} alt="Image" className='rectangle' />
                     <p className='content'>It is the Web design of  Cake Delivery Application. I have designed this UI for a startup company while working as a part-time UI/UX Intern. It is an attractive and responsive design for Web, Tablet and Mobile view. It includes some pages like Home, About, Terms & Conditions and Privacy Policy.</p>
@@ -96,7 +120,7 @@ const Worksamples = () => {
 
             </section>
             <section>
-                <h2 className='heading2'>3. Social Media App</h2>
+                <h2 className='heading2'>4. Social Media App</h2>
                 <div className="card1">
 
                     <p className='content'>This is a social media app like Instagram where users can connect, talk with each other through chat,call,video call and can watch reels and posts. I have designed this app for a freelance client. These are around 15 mobile screens.</p>
@@ -105,7 +129,7 @@ const Worksamples = () => {
                 <a href="https://www.behance.net/gallery/191250435/Social-Media-App"><button className='button'>Visit Design</button></a>
             </section>
             <section>
-                <h2 className='heading2'>4. Admin Dashboard</h2>
+                <h2 className='heading2'>5. Admin Dashboard</h2>
                 <div className="card2">
 
                     <img src={des4} alt="Image" className='rectangle' />
