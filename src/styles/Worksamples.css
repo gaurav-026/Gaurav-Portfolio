@@ -5,6 +5,9 @@
     padding: 0;
 
 }
+body{
+    background-color: rgb(247, 247, 247);
+}
 
 @media screen and (min-width: 760px) {
 
@@ -24,7 +27,7 @@
     .heading2 {
         color: #1E1E1E;
         font-family: Inter;
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
@@ -32,22 +35,48 @@
     }
 
     .button {
-        margin: 0rem 0rem 3rem 4rem;
         display: flex;
         padding: 1rem 0.75rem;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         border-radius: 0.5rem;
-        background: linear-gradient(180deg, #BA76FF 0%, #865AB2 100%);
-        box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+        
         color: #FFF;
         font-family: Inter;
-        font-size: 1rem;
+        font-size: 1.25rem;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         border: none;
-        line-height: normal;
         cursor: pointer;
+        margin: 2rem auto;
+        background: linear-gradient(180deg, rgb(31 142 255) 0%, rgb(29 110 227) 100%);
+        &:hover{
+            background: rgb(0, 98, 209);
+
+            box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+        }
+    }
+    .button2{
+        display: flex;
+        padding: 1rem 0.75rem;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.5rem;
+        
+        color: #FFF;
+        font-family: Inter;
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 500;
+        border: none;
+        cursor: pointer;
+        margin: 2rem auto;
+        background: linear-gradient(180deg, rgb(151, 151, 151) 0%, rgb(105, 105, 105) 100%);
+        &:hover{
+            background: rgb(95, 95, 95);
+
+            box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+        }
     }
 
     .card1 {
@@ -55,13 +84,16 @@
         align-items: center;
         gap: 2rem;
         margin: 2rem 4rem;
-        border: 1px solid #e2e2e2;
-        /* padding: 2rem 1rem; */
         padding: 2.5rem 2rem;
 
-        border-radius: 1rem;
+        border-radius: 0.75rem;
         background: #FFF;
-        box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.15);
+        box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+        &:hover{
+            background: #f9f9f9;
+        box-shadow: 1px 4px 20px 0px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        }
     }
 
     .card2 {
@@ -69,14 +101,16 @@
         align-items: center;
         gap: 2rem;
         margin: 2rem 4rem;
-        border: 1px solid #e2e2e2;
-        /* padding: 2rem 1rem;
-     */
         padding: 2.5rem 2rem;
-
-        border-radius: 1rem;
+        border-radius: 0.75rem;
         background: #FFF;
-        box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.15);
+        box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.1);
+        &:hover{
+            background: #f9f9f9;
+        box-shadow: 1px 4px 20px 0px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        }
+
     }
 
     .content {
@@ -86,7 +120,7 @@
         font-family: Inter;
         font-size: 1.25rem;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         line-height: normal;
 
     }
@@ -95,13 +129,17 @@
         width: 50%;
         height: 25%;
         border-radius: 0.5rem;
-        box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.10);
+        box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
 
     }
+.buttonCollection{
+    display: flex;
+    gap: 1rem;
+    /* margin: auto; */
+    justify-content: center;
+    align-items: center;
+}
 
-    /* section{
-        background-color: grey;
-    } */
 
 }
 
@@ -138,8 +176,8 @@
         justify-content: space-between;
         align-items: center;
         border-radius: 0.5rem;
-        background: linear-gradient(180deg, #BA76FF 0%, #865AB2 100%);
-        box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+        /* background: linear-gradient(180deg, #BA76FF 0%, #865AB2 100%);
+        box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10); */
         color: #FFF;
         font-family: Inter;
         font-size: 0.75rem;
@@ -148,37 +186,65 @@
         border: none;
         line-height: normal;
         cursor: pointer;
+        background: linear-gradient(180deg, rgb(31 142 255) 0%, rgb(29 110 227) 100%);
+        &:hover{
+            background: rgb(0, 98, 209);
+
+            box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+        }
+    }
+    .button2 {
+        margin: 0rem auto 3rem auto;
+        display: flex;
+        padding: 1rem 0.75rem;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 0.5rem;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 0.75rem;
+        font-style: normal;
+        font-weight: 600;
+        border: none;
+        line-height: normal;
+        cursor: pointer;
+        background: linear-gradient(180deg, rgb(151, 151, 151) 0%, rgb(105, 105, 105) 100%);
+        &:hover{
+            background: rgb(95, 95, 95);
+
+            box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.10);
+        }
     }
 
     .card1 {
         display: inline-flex;
-        height: 23.8125rem;
+        /* height: 23.8125rem; */
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-        gap: 1rem;
+        gap: 0.25rem;
         flex-shrink: 0;
         margin-top: 1.75rem;
-        border-radius: 0.75rem;
-        padding: 2.5rem 0rem;
+        border-radius: 0.25rem;
+        padding: 1rem 0rem;
         background: #FFF;
-        box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.15);
-        margin: 1.75rem 1rem;
+        box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.10);
+        margin: 0.75rem;
     }
 
     .card2 {
         display: inline-flex;
-        height: 23.8125rem;
+        /* height: 23.8125rem; */
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 1rem;
+        gap: 0.25rem;
         flex-shrink: 0;
-        border-radius: 0.75rem;
-        padding: 2.5rem 0rem;
+        border-radius: 0.25rem;
+        padding: 1rem 0rem;
         background: #FFF;
-        box-shadow: 0px 1px 14px 0px rgba(0, 0, 0, 0.15);
-        margin: 1.75rem 1rem;
+        box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.10);
+        margin: 0.75rem;
 
     }
 
@@ -186,9 +252,9 @@
         color: #444;
         text-align: justify;
         font-family: Inter;
-        font-size: 1rem;
+        font-size: 0.90rem;
         font-style: normal;
-        font-weight: 600;
+        font-weight: 500;
         line-height: normal;
         margin: 1rem 1.5rem;
     }
@@ -197,8 +263,14 @@
         width: 90%;
         height: 60%;
         border-radius: 0.35rem;
-        box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.10);
+        box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.10);
     }
-
+    .buttonCollection{
+        display: flex;
+        gap: 0.5rem;
+        /* margin: auto; */
+        justify-content: center;
+        align-items: center;
+    }
 
 }
