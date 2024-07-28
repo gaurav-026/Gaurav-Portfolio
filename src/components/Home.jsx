@@ -7,21 +7,23 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { TypeAnimation } from 'react-type-animation';
 
 const Home = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
+  
   return (
     <>
       <div className='frame1' data-aos="fade-down">
         <div className="container">
 
           <div className="text3" data-aos="zoom-in">
-            Hi,<br />
-            I am Gaurav Chakrawarti,<br />
-            MERN Stack Developer<br />
-            UI/UX Designer<br />
+          
+
+          <TypeAnimation sequence={["Hi,\nI am Gaurav Chakrawarti,\nMERN Stack Developer\nUI/UX Designer", 5000, ""]} repeat={Infinity} cursor={true} omitDeletionAnimation={true} style={{whiteSpace:"pre-line", display:"block"}}></TypeAnimation>
+            
           </div>
           <div className="image1" data-aos="zoom-out-up">
             <img src={img1} alt="Profile" width={250} />
@@ -47,7 +49,7 @@ const Home = () => {
         <p className='text5'>
           <ul><li><b>UI/UX Designer Intern</b></li></ul>
           {/* <br /> */}
-          <i>Be10x || (May 2024- June 2024)</i>
+          <i>Be10x || (May 2024- July 2024)</i>
           <br /> <br />
           Key Responsibilities and Achievements:
           <br />
@@ -87,7 +89,14 @@ const Home = () => {
           Kamla Nehru Institute of Technology, Sultanpur <br />
           BTech || CGPA: 8.75 <br />
           Nov 2021 - Jul 2025 <br />
-          {/* Activities and societies: Sports, Flute Playing, Travelling, Exploring New things and Ideas */}
+        </p>
+        <p className='text5' data-aos="fade-up">
+          12th || Rashtriya Inter College, Amroha, Uttar Pradesh <br />
+          Percentage: 86% || 2021 <br />
+        </p>
+        <p className='text5' data-aos="fade-up">
+          10th || Rashtriya Inter College, Amroha, Uttar Pradesh <br />
+          Percentage: 87.5% || 2019 <br />
         </p>
       </div>
 
@@ -102,22 +111,19 @@ const Home = () => {
               <p className="text6">C/C++</p>
             </div>
             <div className="box">
+              <p className="text6">OOPS</p>
+            </div>
+            <div className="box">
               <p className="text6">Java(Basic)</p>
             </div>
             <div className="box">
+              <p className="text6">MERN Stack</p>
+            </div>
+            <div className="box">
+              <p className="text6">Next.js</p>
+            </div>
+            <div className="box">
               <p className="text6">Javascript</p>
-            </div>
-            <div className="box">
-              <p className="text6">NoSQL(MongoDb)</p>
-            </div>
-            <div className="box">
-              <p className="text6">React.js</p>
-            </div>
-            <div className="box">
-              <p className="text6">Node.js</p>
-            </div>
-            <div className="box">
-              <p className="text6">Express.js</p>
             </div>
             <div className="box">
               <p className="text6">UI/UX Design</p>
@@ -133,6 +139,9 @@ const Home = () => {
             </div>
             <div className="box">
               <p className="text6">Bootstrap</p>
+            </div>
+            <div className="box">
+              <p className="text6">Material UI</p>
             </div>
             <div className="box">
               <p className="text6">Git/Github</p>
@@ -153,10 +162,10 @@ const Home = () => {
               <p className="text6">Figma</p>
             </div>
             <div className="box">
-              <p className="text6">Canva</p>
+              <p className="text6">ChatGPT</p>
             </div>
             <div className="box">
-              <p className="text6">ChatGPT</p>
+              <p className="text6">DBMS</p>
             </div>
 
           </div>

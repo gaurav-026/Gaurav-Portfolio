@@ -28,15 +28,7 @@ const Profiles = () => {
                         <p className='id'>Linkedin</p>
                     </div>
                 </Link>
-
-                <Link to="https://www.freelancer.com/u/gaurav21426">
-                    <div className="profilecard" data-aos="fade-right">
-                        <img className="circle" src={freelance} alt='profilelogo'></img>
-                    
-                        <p className='id'>Freelancer</p>
-                    </div>
-                </Link>
-
+                
                 <Link to="https://github.com/gaurav-026
 ">
                     <div className="profilecard" data-aos="fade-right">
@@ -45,6 +37,14 @@ const Profiles = () => {
                         <p className='id'>GitHub</p>
                     </div>
                 </Link>
+
+                <Link to="https://www.behance.net/gauravchakraw">
+                    <div className="profilecard" data-aos="fade-right">
+                        <img className="circle" src={behance} alt='profilelogo'></img>
+                        <p className='id'>Behance</p>
+                    </div>
+                </Link>
+
                 <Link to="https://auth.geeksforgeeks.org/user/gauravchakrawarti8">
                     <div className="profilecard" data-aos="fade-right">
                         <img className="circle" src={gfg} alt='profilelogo'></img>
@@ -69,6 +69,14 @@ const Profiles = () => {
                     </div>
                 </Link>
 
+                <Link to="https://www.freelancer.com/u/gaurav21426">
+                    <div className="profilecard" data-aos="fade-right">
+                        <img className="circle" src={freelance} alt='profilelogo'></img>
+                    
+                        <p className='id'>Freelancer</p>
+                    </div>
+                </Link>     
+                
                 <Link to="https://www.instagram.com/gauravchakrawarti2003/
 ">
                     <div className="profilecard" data-aos="fade-right">
@@ -77,14 +85,8 @@ const Profiles = () => {
                         <p className='id'>Instagram</p>
                     </div>
                 </Link>
+                
 
-                <Link to="https://www.behance.net/gauravchakraw">
-                    <div className="profilecard" data-aos="fade-right">
-                        <img className="circle" src={behance} alt='profilelogo'></img>
-                    
-                        <p className='id'>Behance</p>
-                    </div>
-                </Link>
 
             </section>
 
