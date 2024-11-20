@@ -38,6 +38,14 @@ const Profiles = () => {
                     </div>
                 </Link>
 
+                <Link to="https://leetcode.com/gaurav_026/">
+                    <div className="profilecard" data-aos="fade-right">
+                        <img className="circle" src={leetcode} alt='profilelogo'></img>
+                     
+                        <p className='id'>Leetcode</p>
+                    </div>
+                </Link>
+                
                 <Link to="https://www.behance.net/gauravchakraw">
                     <div className="profilecard" data-aos="fade-right">
                         <img className="circle" src={behance} alt='profilelogo'></img>
@@ -50,14 +58,6 @@ const Profiles = () => {
                         <img className="circle" src={gfg} alt='profilelogo'></img>
                        
                         <p className='id'>GeeksforGeeks</p>
-                    </div>
-                </Link>
-
-                <Link to="https://leetcode.com/gaurav_026/">
-                    <div className="profilecard" data-aos="fade-right">
-                        <img className="circle" src={leetcode} alt='profilelogo'></img>
-                     
-                        <p className='id'>Leetcode</p>
                     </div>
                 </Link>
 

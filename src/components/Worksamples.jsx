@@ -134,6 +134,20 @@ const Worksamples = () => {
                 <div className="buttonCollection"><a href="https://www.behance.net/gallery/204263823/Learning-Management-System-Dashboard"><button className='button'>Visit Design &nbsp;<RiExternalLinkLine /></button></a>
                 </div>
             </section>
+            <section>
+                <h2 className='heading2'>:: Learning Management System: App Design | 2024</h2>
+                <div className="card2" data-aos="fade-up">
+                <img src={lmsapp} alt="siteImage" className='designRectangle' />
+                    {/* <p className='content' data-aos="fade-down">
+                    <b>Key Learning:</b> User Experience, User Research, UI Designing, Wireframing
+                    <br/> 
+                    <b>Tools Used:</b> Figma
+                    </p> */}
+                    
+                </div>
+                <a href="https://www.behance.net/gallery/204269265/Learning-Management-System-App"><button className='button'>Visit Design &nbsp;<RiExternalLinkLine /></button></a>
+
+            </section>
 
             
             <h1 className='heading1'>Other Projects</h1>
@@ -192,20 +206,6 @@ const Worksamples = () => {
 
             </section>
 
-            <section>
-                <h2 className='heading2'>:: Learning Management System: App Design | 2024</h2>
-                <div className="card2" data-aos="fade-up">
-                <img src={lmsapp} alt="siteImage" className='designRectangle' />
-                    {/* <p className='content' data-aos="fade-down">
-                    <b>Key Learning:</b> User Experience, User Research, UI Designing, Wireframing
-                    <br/> 
-                    <b>Tools Used:</b> Figma
-                    </p> */}
-                    
-                </div>
-                <a href="https://www.behance.net/gallery/204269265/Learning-Management-System-App"><button className='button'>Visit Design &nbsp;<RiExternalLinkLine /></button></a>
-
-            </section>
             
             <section>
                 <h2 className='heading2'>:: Cakelaya Android App Design</h2>

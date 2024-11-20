@@ -22,7 +22,7 @@ const Home = () => {
           <div className="text3" data-aos="zoom-in">
           
 
-          <TypeAnimation sequence={["Hi,\nI am Gaurav Chakrawarti,\nMERN Stack Developer\nUI/UX Designer", 5000, ""]} repeat={Infinity} cursor={true} omitDeletionAnimation={true} style={{whiteSpace:"pre-line", display:"block"}}></TypeAnimation>
+          <TypeAnimation sequence={["Hi,\nI am Gaurav Chakrawarti,\nSoftware Developer\nUI/UX Designer", 5000, ""]} repeat={Infinity} cursor={true} omitDeletionAnimation={true} style={{whiteSpace:"pre-line", display:"block"}}></TypeAnimation>
             
           </div>
           <div className="image1" data-aos="zoom-out-up">
@@ -30,7 +30,7 @@ const Home = () => {
           </div>
         </div>
         <div className="text4" data-aos="fade-down">
-          I am a final-year B.Tech Electronics Engineering student with an overall CGPA of 8.75. I possess strong knowledge of Data Structures and Algorithms, MERN Stack Development, and UI/UX Design. As a MERN Stack developer, I can effectively handle both frontend and backend development, ensuring functional and visually appealing user interfaces. I have successfully worked as a UI/UX Designer intern at two companies and have also delivered two freelance projects.
+          A final-year B.Tech Electronics Engineering student with an overall CGPA of 8.78. I possess strong knowledge of Computer Science fundamentals, MERN Stack Development, and UI/UX Design. As a MERN Stack developer, I can effectively handle both frontend and backend development, ensuring functional and visually appealing user interfaces.
         </div>
 
 
@@ -39,7 +39,7 @@ const Home = () => {
       <div className="frame2" data-aos="fade-up">
         <h2 className='h2'>Current Position</h2>
         <div className="container1">
-          <p1 className='text5'>I am currently working as a part-time UI/UX Intern at Be10x, where I have successfully revamped a Learning Management System (LMS) and a Workday Nutrition website. My efforts have significantly enhanced user engagement and satisfaction. I am now focused on designing an LMS app for the company, aiming to deliver a seamless and user-friendly experience for our mobile users.</p1>
+          <p1 className='text5'>I am looking for a full-time SDE role to give a kickstart to my career. I have successfully worked as a UI/UX Designer intern at two companies and also delivered two freelance projects.<br/> Feel free to share with me if you find anything relevant for me. Email: gauravchakrawarti2003</p1>
 
         </div>
 
@@ -49,7 +49,7 @@ const Home = () => {
         <p className='text5'>
           <ul><li><b>UI/UX Designer Intern</b></li></ul>
           {/* <br /> */}
-          <i>Be10x || (May 2024- July 2024)</i>
+          <i>Be10x || (May 2024- July 2024) || <a href="https://www.behance.net/gallery/204263823/Learning-Management-System-Dashboard">[Project Demo]</a></i>
           <br /> <br />
           Key Responsibilities and Achievements:
           <br />
@@ -68,7 +68,7 @@ const Home = () => {
         <p className='text5'>
           <ul><li><b>UI/UX Designer Intern</b></li></ul>
           {/* <br /> */}
-          <i>Cakelaya Startup || (Jan 2024)</i>
+          <i>Cakelaya Startup || (Jan 2024) || <a href="https://www.behance.net/gallery/191259441/Cake-Delivery-App">[Project Demo]</a></i>
           <br /> <br />
           Key Responsibilities and Achievements:
           <br />
@@ -87,7 +87,7 @@ const Home = () => {
         <h2 className='h2'>Educational Qualifications</h2>
         <p className='text5' data-aos="fade-up">
           Kamla Nehru Institute of Technology, Sultanpur <br />
-          BTech || CGPA: 8.75 <br />
+          BTech || CGPA: 8.78 <br />
           Nov 2021 - Jul 2025 <br />
         </p>
         <p className='text5' data-aos="fade-up">
@@ -111,10 +111,16 @@ const Home = () => {
               <p className="text6">C/C++</p>
             </div>
             <div className="box">
+              <p className="text6">Java</p>
+            </div>
+            <div className="box">
               <p className="text6">OOPS</p>
             </div>
             <div className="box">
-              <p className="text6">Java(Basic)</p>
+              <p className="text6">OS</p>
+            </div>
+            <div className="box">
+              <p className="text6">DBMS</p>
             </div>
             <div className="box">
               <p className="text6">MERN Stack</p>
@@ -164,9 +170,7 @@ const Home = () => {
             <div className="box">
               <p className="text6">ChatGPT</p>
             </div>
-            <div className="box">
-              <p className="text6">DBMS</p>
-            </div>
+            
 
           </div>
 
@@ -191,23 +195,23 @@ const Home = () => {
           <b>Languages: </b> English | Hindi(Native)
         </p>
         <p className='text5'>
-          <b>Certifications:</b>  Web Development Fundamentals | UI/UX Designer Intern | Hackathons
-        </p>
-        <p className='text5'>
-          <b>Extra Curricular Activities:</b>  <br></br>
-          &nbsp;&nbsp;&nbsp;- Participated in Hackatons like <b>“Coca-Cola Season-3”</b> and <b>“Flipkart Grid-5.0”</b> <br></br>
-          &nbsp;&nbsp;&nbsp;- I am Designer Head in college club named Mechanical
-          Engineering Forum.<br></br>
-          &nbsp;&nbsp;&nbsp;- Organize events at our college to provide students with opportunities to learn about various technical subjects and gain valuable knowledge. <br></br>
-          &nbsp;&nbsp;&nbsp;- Build Automated Parking System using Arduino
+          <b>Certifications:</b>  <a href="https://www.credly.com/badges/a51ac906-fcae-44da-baf4-6ad905814b2f/linked_in_profile">Web Development Fundamentals</a> | <a href="https://drive.google.com/file/d/1v_29DrYHwfhUS7BB6_1bbkK9B7iA57Tp/view?usp=sharing">UI/UX Designer Intern</a> | Hackathons
         </p>
         <p className='text5'>
           <b>Achievements:</b><br></br>
-          &nbsp;&nbsp;&nbsp;- Codechef(<b>max. 1378</b>), <b>300+</b> Problems on LeetCode|GFG <br></br>
-          &nbsp;&nbsp;&nbsp;- Developed responsive web apps using React.js<br></br>
-          &nbsp;&nbsp;&nbsp;- Collaborated with other designers to implement creative designs<br></br>
-          &nbsp;&nbsp;&nbsp;- Successfully delivered 2 Freelance projects
+          &nbsp;&nbsp;&nbsp;- Codechef(<b>max. 1378</b>), (<b>1450+</b> Rating) & <b>350+</b> Problems on LeetCode|GFG <br></br>
+          &nbsp;&nbsp;&nbsp;- Successfully delivered 2 Freelance projects<br></br>
+          &nbsp;&nbsp;&nbsp;- Collaborated with other designers to implement creative design solutions.
         </p>
+        <p className='text5'>
+          <b>Extra Curricular Activities:</b>  <br></br>
+          &nbsp;&nbsp;&nbsp;- Participated in Hackatons like <a href="https://drive.google.com/file/d/1JRXX2-STYRdhBWjcRc72lJeGFBvymwyd/view?usp=sharing"><b>“Sparkathon”</b></a> and <a href="https://drive.google.com/file/d/1IPQUQm6z4e9s4ty2NQZSZwWvD9wuzcjy/view?usp=sharing"><b>“Flipkart-Grid 6.0”</b></a> <br></br>
+          &nbsp;&nbsp;&nbsp;- I am Designer Head in college club named Mechanical
+          Engineering Forum.<br></br>
+          &nbsp;&nbsp;&nbsp;- Organized an international event at the college under the mentorship of faculty members.<br></br>
+          &nbsp;&nbsp;&nbsp;- Build Automated Parking System using Arduino
+        </p>
+       
         <p className='text5'>
           <b>Interests:</b> Creating Personal Projects | Gaming | Travelling | Flute playing | Workout | Basket Ball | Space Exploration | Music
         </p>
