@@ -39,7 +39,7 @@ const Home = () => {
       <div className="frame2" data-aos="fade-up">
         <h2 className='h2'>Current Position</h2>
         <div className="container1">
-          <p1 className='text5'>I am looking for a full-time SDE role to give a kickstart to my career. I have successfully worked as a UI/UX Designer intern at two companies and also delivered two freelance projects.<br/> Feel free to share with me if you find anything relevant for me. Email: gauravchakrawarti2003</p1>
+          <p1 className='text5'>I am looking for a full-time SDE role to give a kickstart to my career. I have successfully worked as a UI/UX Designer intern at two companies and also delivered two freelance projects.<br/> Feel free to share with me if you find anything relevant for me. Email: gauravchakrawarti8@gmail.com</p1>
 
         </div>
 
