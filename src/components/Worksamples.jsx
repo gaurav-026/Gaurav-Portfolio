@@ -5,8 +5,6 @@ import web3 from '../assets/web3.png'
 import web7 from '../assets/web7.png'
 import des1 from '../assets/des1.png'
 import des2 from '../assets/des2.png'
-// import des3 from '../assets/des3.png'
-// import des4 from '../assets/des4.png'
 import des5 from '../assets/des5.png'
 import syncTable from "../assets/syncTable.png";
 import qSubmit from "../assets/qsubmit.png";
@@ -15,6 +13,8 @@ import figmatocode from "../assets/figmatocode.png"
 import workday from "../assets/Frame 40068 (1).png"
 import lmsweb from "../assets/lmsweb.png"
 import lmsapp from "../assets/lmsapp.png"
+import battle from '../assets/battle.png'
+import ecart from '../assets/ecart.png'
 import { RiExternalLinkLine } from "react-icons/ri";
 import { FaCode } from "react-icons/fa";
 import AOS from 'aos';
@@ -26,7 +26,39 @@ const Worksamples = () => {
       }, []);
     return (
         <>
-            <h1 className='heading1'>Most Recent Projects</h1>
+            <h1 className='heading1'>Recent Projects</h1>
+            <section>
+                <h2 className='heading2'> ::  Battlefield V: Gaming Website | 2025</h2>
+                <div className="card2" data-aos="fade-up">
+                    <img src={battle} alt="siteImage" className='rectangle' />
+                    <p className='content' data-aos="fade-down">Transformed Figma mockups into mobile-responsive web interfaces utilizing React.js and Tailwind CSS.Built a high-performance Node.js backend with custom APIs, managing AWS 
+                    deployment and handled media operations by constructing a file management system with Express-file upload and Cloudinary integration.
+                    <br />
+                    <b>Key Learning:</b> AWS, Cloudinary Integration, Handling large static and dynamic data in the application.
+                    <br/>
+                    <b>Stack Used:</b> AWS, React, Node.js, MongoDb, Tailwind CSS, Cloudinary, Javascript.
+                    </p>
+                </div>
+                <div className="buttonCollection"><a href="https://gaurav-battlefield-v.netlify.app/"><button className='button'>Visit Website &nbsp;<RiExternalLinkLine /></button></a>
+                <a href="https://github.com/gaurav-026/BATTLEFIELD-V"><button className='button2'>GitHub Link&nbsp; <FaCode /></button></a></div>
+            </section>
+
+            <section>
+                <h2 className='heading2'> ::  FashionVilla: E-Commerce Store | 2024</h2>
+                <div className="card1" data-aos="fade-up">
+                    <p className='content' data-aos="fade-down">Built a robust e-commerce platform employing Redux for effective state management, streamlined product selection process by integrating functionalities for adding items into carts while ensuring accurate 
+                    quantity adjustments and Engineered scalable API integrations that optimized data retrieval.
+                    <br />
+                    <b>Key Learning:</b> State Management using Redux, API.
+                    <br/>
+                    <b>Stack Used:</b> Next.js, React, Redux, Javascript, Tailwind.
+                    </p>
+                    <img src={ecart} alt="siteImage" className='rectangle' />
+                </div>
+                <div className="buttonCollection"><a href="https://fashionvilla-by-gaurav.netlify.app/"><button className='button'>Visit Website &nbsp;<RiExternalLinkLine /></button></a>
+                <a href="https://github.com/gaurav-026/Fashion-Villa---Shopping-App"><button className='button2'>GitHub Link&nbsp; <FaCode /></button></a></div>
+            </section>
+
             <section>
                 <h2 className='heading2'> ::  SyncTable: Table Data Emailer | 2024</h2>
                 <div className="card2" data-aos="fade-up">
@@ -109,12 +141,6 @@ const Worksamples = () => {
             <section>
                 <h2 className='heading2'> ::  Workday Nutrition - Web Design | 2024</h2>
                 <div className="card1" data-aos="fade-up">
-
-                    {/* <p className='content' data-aos="fade-down">
-                    <b>Key Learning:</b> User Research, UI Designing, Wireframing
-                    <br/>
-                    <b>Tools Used:</b> Figma
-                    </p> */}
                     <img src={workday} alt="admin" className='designRectangle'/>
                 </div>
                 <div className="buttonCollection"><a href="https://www.behance.net/gallery/202648309/Workday-Nutrition-Website"><button className='button'>Visit Design &nbsp;<RiExternalLinkLine /></button></a>
@@ -125,11 +151,6 @@ const Worksamples = () => {
                 <h2 className='heading2'> ::  Learning Management System - Web Design | 2024</h2>
                 <div className="card2" data-aos="fade-up">
                     <img src={lmsweb} alt="siteImage" className='designRectangle' />
-                    {/* <p className='content' data-aos="fade-down">
-                    <b>Key Learning:</b> User Experience, User Research, UI Designing, Wireframing
-                    <br/> 
-                    <b>Tools Used:</b> Figma
-                    </p>                     */}
                 </div>
                 <div className="buttonCollection"><a href="https://www.behance.net/gallery/204263823/Learning-Management-System-Dashboard"><button className='button'>Visit Design &nbsp;<RiExternalLinkLine /></button></a>
                 </div>
@@ -138,12 +159,6 @@ const Worksamples = () => {
                 <h2 className='heading2'>:: Learning Management System: App Design | 2024</h2>
                 <div className="card2" data-aos="fade-up">
                 <img src={lmsapp} alt="siteImage" className='designRectangle' />
-                    {/* <p className='content' data-aos="fade-down">
-                    <b>Key Learning:</b> User Experience, User Research, UI Designing, Wireframing
-                    <br/> 
-                    <b>Tools Used:</b> Figma
-                    </p> */}
-                    
                 </div>
                 <a href="https://www.behance.net/gallery/204269265/Learning-Management-System-App"><button className='button'>Visit Design &nbsp;<RiExternalLinkLine /></button></a>
 
@@ -206,16 +221,9 @@ const Worksamples = () => {
 
             </section>
 
-            
             <section>
                 <h2 className='heading2'>:: Cakelaya Android App Design</h2>
                 <div className="card1" data-aos="fade-up">
-
-                    {/* <p className='content' data-aos="fade-down">
-                    <b>Key Learning:</b> User Research, UI Designing, Wireframing
-                    <br/> 
-                    <b>Tools Used:</b> Figma
-                    </p> */}
                     <img src={des1} alt="siteImage" className='designRectangle' />
                 </div>
                 <a href="https://www.behance.net/gallery/191259441/Cake-Delivery-App"><button className='button'>Visit Design &nbsp;<RiExternalLinkLine /></button></a>
@@ -226,10 +234,6 @@ const Worksamples = () => {
                 <h2 className='heading2'>::  EnergizeX: Health and Nutrition Product Website - Web Design </h2>
                 <div className="card2" data-aos="fade-up">
                     <img src={des5} alt="siteImage" className='designRectangle' />
-                    {/* <p className='content' data-aos="fade-down"> <b>Key Learning:</b> User Research, UI Designing, Wireframing
-                    <br/> 
-                    <b>Tools Used:</b> Figma </p> */}
-
                 </div>
                 <a href="https://www.behance.net/gallery/197905255/EnergizeX-Health-Nutrition-Product-Website"><button className='button'>Visit Design &nbsp;<RiExternalLinkLine /></button></a>
 
@@ -238,12 +242,6 @@ const Worksamples = () => {
             <section>
                 <h2 className='heading2'>::  Cakelaya Website Design </h2>
                 <div className="card1" data-aos="fade-up">
-                   
-                    {/* <p className='content' data-aos="fade-down">
-                    <b>Key Learning:</b> User Research, UI Designing, Wireframing
-                    <br/> 
-                    <b>Tools Used:</b> Figma
-                    </p> */}
                     <img src={des2} alt="siteImage" className='designRectangle' />
 
                 </div>
@@ -251,26 +249,6 @@ const Worksamples = () => {
 
             </section>
 
-            {/* <section>
-                <h2 className='heading2'>::  Social Media App: App Design</h2>
-                <div className="card1" data-aos="fade-up">
-                    <img src={des3} alt="siteImage" className='rectangle' />
-                    <p className='content' data-aos="fade-down">This is a social media app like Instagram where users can connect, talk with each other through chat,call,video call and can watch reels and posts. I have designed this app for a freelance client. These are around 15 mobile screens.</p>
-                    
-                </div>
-                <a href="https://www.behance.net/gallery/191250435/Social-Media-App"><button className='button'>Visit Design &nbsp;<RiExternalLinkLine /></button></a>
-            </section>
-
-            <section>
-                <h2 className='heading2'>:: Admin Dashboard - Design</h2>
-                <div className="card2" data-aos="fade-up">
-
-                    
-                    <p className='content' data-aos="fade-down">This is a Admin Dashboard for a social media app. It includes the data anlaysis of the app and also a social network for admins. They can connect and post their stories, feeds etc. I have designed this app for a freelance client. These are around 5 web screens.</p>
-                    <img src={des4} alt="siteImage" className='rectangle' />
-                </div>
-                <a href="https://www.behance.net/gallery/191881739/Admin-Panel"><button className='button'>Visit Design &nbsp;<RiExternalLinkLine /></button></a>
-            </section> */}
         </>
     )
 }

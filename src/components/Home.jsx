@@ -22,7 +22,7 @@ const Home = () => {
           <div className="text3" data-aos="zoom-in">
           
 
-          <TypeAnimation sequence={["Hi,\nI am Gaurav Chakrawarti,\nSoftware Developer\nUI/UX Designer", 5000, ""]} repeat={Infinity} cursor={true} omitDeletionAnimation={true} style={{whiteSpace:"pre-line", display:"block"}}></TypeAnimation>
+          <TypeAnimation sequence={["Hi,\nI am Gaurav Chakrawarti,\nSoftware Developer", 3000, ""]} repeat={Infinity} cursor={true} omitDeletionAnimation={true} style={{whiteSpace:"pre-line", display:"block"}}></TypeAnimation>
             
           </div>
           <div className="image1" data-aos="zoom-out-up">
@@ -105,6 +105,9 @@ const Home = () => {
           <h2 className="h2">Technical Skills</h2>
           <div className="container4">
             <div className="box">
+              <p className="text6">AWS</p>
+            </div>
+            <div className="box">
               <p className="text6">Data Structure & Algorithms</p>
             </div>
             <div className="box">
@@ -114,7 +117,23 @@ const Home = () => {
               <p className="text6">Java</p>
             </div>
             <div className="box">
-              <p className="text6">OOPS</p>
+              <p className="text6">Microsoft Copilot</p>
+            </div>
+            <div className="box">
+              <p className="text6">MERN</p>
+            </div>
+            <div className="box">
+              <p className="text6">Next.js</p>
+            </div>
+            <div className="box">
+              <p className="text6">Javascript</p>
+            </div>
+            
+            <div className="box">
+              <p className="text6">UI/UX Design</p>
+            </div>
+            <div className="box">
+              <p className="text6">Object Oriented Prog</p>
             </div>
             <div className="box">
               <p className="text6">OS</p>
@@ -123,19 +142,7 @@ const Home = () => {
               <p className="text6">DBMS</p>
             </div>
             <div className="box">
-              <p className="text6">MERN Stack</p>
-            </div>
-            <div className="box">
-              <p className="text6">Next.js</p>
-            </div>
-            <div className="box">
-              <p className="text6">Javascript</p>
-            </div>
-            <div className="box">
-              <p className="text6">UI/UX Design</p>
-            </div>
-            <div className="box">
-              <p className="text6">Low Level Designing</p>
+              <p className="text6">LLD</p>
             </div>
             <div className="box">
               <p className="text6">HTML</p>
@@ -167,9 +174,6 @@ const Home = () => {
             <div className="box">
               <p className="text6">Figma</p>
             </div>
-            <div className="box">
-              <p className="text6">ChatGPT</p>
-            </div>
             
 
           </div>
@@ -195,8 +199,8 @@ const Home = () => {
           <b>Languages: </b> English | Hindi(Native)
         </p>
         <p className='text5'>
-          <b>Certifications:</b>  <a href="https://www.credly.com/badges/a51ac906-fcae-44da-baf4-6ad905814b2f/linked_in_profile">Web Development Fundamentals</a> | <a href="https://drive.google.com/file/d/1v_29DrYHwfhUS7BB6_1bbkK9B7iA57Tp/view?usp=sharing">UI/UX Designer Intern</a> | Hackathons
-        </p>
+          <b>Certifications:</b>  <a href="https://www.linkedin.com/learning/certificates/50ac1221b334843d83793ca19571ca90299e57a99355b9bf4a52a3726a060877?trk=share_certificate">Microsoft Copilot</a> | <a href="https://drive.google.com/file/d/1g-aHjj2HosbijtAjYubhv_Meb5L3rh9l/view"> AWS Fundamentals</a> | <a href="https://www.credly.com/badges/a51ac906-fcae-44da-baf4-6ad905814b2f/linked_in_profile">Web Development Fundamentals</a> | <a href="https://drive.google.com/file/d/1JRXX2-STYRdhBWjcRc72lJeGFBvymwyd/view?usp=sharing">Hackathons</a>
+        </p> 
         <p className='text5'>
           <b>Achievements:</b><br></br>
           &nbsp;&nbsp;&nbsp;- Codechef(<b>max. 1378</b>), (<b>1450+</b> Rating) & <b>350+</b> Problems on LeetCode|GFG <br></br>
