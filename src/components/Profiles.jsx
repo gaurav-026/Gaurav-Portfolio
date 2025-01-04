@@ -18,7 +18,7 @@ const Profiles = () => {
       }, []);
     return (
         <>
-            <Link to="https://drive.google.com/file/d/1Kx7pD2uZ6esbRApP4PzSo1VQ-oE5bxQD/view?usp=sharing" ><button type="button" className='downloadbtn' > <MdOutlineFileDownload size={20} />&nbsp; Get Resume</button></Link>
+            <Link to="https://drive.google.com/file/d/1A7J49phAW5O_CDCKbUXyFK740vNhpQON/view?usp=sharing" ><button type="button" className='downloadbtn' > <MdOutlineFileDownload size={20} />&nbsp; Get Resume</button></Link>
             <h1 className='heading1'>Profiles</h1>
             <section className='cardrow'>
                 <Link to="https://www.linkedin.com/in/gaurav-chakrawarti-74567b224/">
